@@ -21,7 +21,6 @@ public class TestNetwork {
             byte[] messageBuffer = new byte[1024];
             DatagramPacket receivePacket = new DatagramPacket(messageBuffer, 1024);
 
-
             socket.receive(receivePacket);
 
 
